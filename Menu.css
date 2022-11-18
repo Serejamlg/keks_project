@@ -1,0 +1,88 @@
+
+/* это основной блок Меню */
+.Menu_content {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+}
+
+/* Левый Блок с кнопкой и текстом  */
+.Menu_btn_text {
+height: 80vh;
+width: 50vw;
+/* background-color: aquamarine; */
+position: relative;
+display: flex;
+/* flex-direction: column; */
+justify-content: center;
+align-items: center;
+/* margin-top: px;
+margin-bottom: ;
+margin-left: ;
+margin-right: 10vw ; */
+}
+.position_left_block {
+    position: absolute;
+    left: 10vw;
+    bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brend_text {
+    height: 8vh;
+    width: 15vw;
+    color: white;
+   font-family: Kolker Brush, cursive;
+   font-size: 5vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* margin-bottom: 5vh; */
+}
+/* кнопка для заказа */
+.btn_left_zakaz {
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    background-color: red;
+    font-family: Kolker Brush, cursive;
+    font-size: 3vh;
+    color: white;
+    display: block;
+    overflow: hidden;
+}
+.btn_left_zakaz:hover {
+/* height: 60px;
+width: 170px; */
+border: 2px solid lime;
+cursor: pointer;
+color: aqua;
+}
+
+/* Правый блок с эмблемой  */
+.Menu_logo_right {
+    /* height: 80vh;
+    width: 50vw; */
+    /* background-color: burlywood; */
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   

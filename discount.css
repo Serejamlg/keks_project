@@ -1,0 +1,39 @@
+.container_discount {
+width: 100%;
+/* background-color: blanchedalmond; */
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+/* целиковый блок с акцией */
+.discount_block {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2vw;
+    overflow: hidden;
+    
+    
+}
+
+/*Блок с картинкой*/
+.discount_mem_img  {
+    width: 15vw 
+        
+}
+/*Блок под описание акции*/
+.discount_text {
+    font-size: 1vw;
+    overflow: hidden;
+}
+
+.discount_mem_img img {
+    border-radius: 20%;
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+.discount_mem_img img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,156 @@
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(79, 115, 146);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* это наша главная полоска которая отвечает за всю навигацию и ее можно контролировать ТУТ! */
+header {
+    margin-top: 3vh;
+    z-index: 99;
+    background-color: rgba(6, 255, 172, 0.336);
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.full_header {
+    background-image: url(/allImage/fonMenu.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.nav_header {
+    /* margin: 0; */
+    /* margin-top: 3vh; */
+    /* background-color: rgb(255, 0, 0); */
+    /* border-bottom: 0.3vh solid black; */
+    /* border-top: 0.3vh solid black; */
+    height: 7vh;
+    /* добавим позицианирование флексом  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_navBar {
+    margin-left: 4vw;
+}
+
+.left_navBar img {
+    width: 4vw;
+}
+
+.mid_navBar {
+    margin-right: 1vw;
+    display: flex;
+   
+}
+.navLink {
+    margin: 0.8vw;
+}
+
+.social img {
+    width: 5vh;
+}
+.social {
+    color: white;
+}
+
+.right_navBar {
+    margin-right: vw;
+    
+}
+ .navLink a {
+    color: rgb(255, 251, 251);
+    /* color: inherit; */
+    text-decoration: none;
+    font-size: 2vh;
+    cursor: pointer;
+
+}
+
+.navLink a {
+    background: linear-gradient(to right,
+            rgb(124, 199, 199),
+            rgba(100, 200, 200, 1)),
+        linear-gradient(to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.navLink a:hover {
+    background-size: 0 2px, 100% 3px;
+    color: rgba(255, 208, 0, 0.938);
+}
+
+.btn_korzina  {
+margin-right:2vw ;
+height: 5vh;
+cursor: pointer;
+display: inline-block;
+overflow: hidden;
+}
+.btn_korzina img {
+    transition: 0.8s;
+    display: block;
+}
+.btn_korzina img:hover {
+    transform: rotate(720deg) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
