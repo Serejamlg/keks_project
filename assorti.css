@@ -3,11 +3,13 @@
 }
 .border {
   width: 15vw;
+  
   margin: 0 auto;
   background: white;
-  padding: 20px;
+  padding: 0px;
   border: 1px solid #F1E7E8;
   margin-bottom: 1vh;
+  
 }
 .wrap {
   height: 100%;
@@ -18,7 +20,7 @@
 }
 .product-wrap:after {
   content: '';
-  background: rgba(8, 104, 230, 0.5);
+  background: rgba(0, 2, 5, 0.404);
   position: absolute;
   left: 0;
   right: 0;
@@ -39,6 +41,7 @@
 .product-wrap img {
   display: block;
   width: 100%;
+  
 }
 .loop-action {
   position: absolute;
