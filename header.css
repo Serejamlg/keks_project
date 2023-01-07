@@ -7,7 +7,7 @@ html {
 
 body {
     margin: 0;
-    background-color: rgb(79, 115, 146);
+    background-color: #f0dee4;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -18,7 +18,7 @@ body {
 header {
     margin-top: 3vh;
     z-index: 99;
-    /* background-color: rgba(6, 255, 172, 0.336); */
+    
 }
 
 
@@ -39,13 +39,7 @@ a {
 
 
 .nav_header {
-    /* margin: 0; */
-    /* margin-top: 3vh; */
-    /* background-color: rgb(255, 0, 0); */
-    /* border-bottom: 0.3vh solid black; */
-    /* border-top: 0.3vh solid black; */
     height: 7vh;
-    /* добавим позицианирование флексом  */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,7 +117,9 @@ overflow: hidden;
 }
 
 
-
+@media (max-width: 1400px) {
+    
+}
 
 
 
